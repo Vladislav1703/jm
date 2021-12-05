@@ -29,7 +29,7 @@ public class Main {
                 result = (int) Math.floor(result);
                 RomanValidation.validateInt(result);
                 String romanResult = ConvertOperators.intToRoman(result);
-                System.out.println("roman Result: " + romanResult);
+                System.out.println("roman Result : " + romanResult);
             } else {
                 Number result = Calculator.calculate(Integer.parseInt(operands[0]), Integer.parseInt(operands[1]), operator);
                 System.out.println("result: " + result);
